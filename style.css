@@ -16,6 +16,7 @@ body{
     
     width: 25%;
     border-right: 1px solid black;
+    background-color: goldenrod;
 }
 
 #picture{
@@ -23,6 +24,14 @@ body{
     width: 75%;
     margin-left: 25%;
     text-align: center;
+    background-color: blueviolet;
+
+
+}
+
+#header{
+    color:blanchedalmond;
+
 }
 
 
