@@ -1,8 +1,8 @@
-console.log("Hey!");
+console.log("Sup dawg!");
 
 // you define variables with let, a variable name and then a value
 let foo = 2;
-console.log(foo);
+console.log("Foo is: " + foo);
 
 // you can define the value of a variable after you declare the the variable exists!
 let bar;
@@ -16,7 +16,7 @@ console.log("Bar is now: " + bar); // should be 3
 console.log(foo + '*' + bar + '=' +(foo*bar));
 
 // now you do division!
-console.log(foo + '*' + bar + '=' +('ADD A DIVISION EXPRESSION HERE'));
+console.log(foo + '/' + bar + '=' +(foo/bar));
 
 
 
@@ -35,13 +35,16 @@ function printSquareNumber(number){ // calls square number and prints the result
 
 
 // call printSquareNumber
+printSquareNumber(6)
 
 function cubeNumber(number){
     //write this with a return statement (like squareNumber)
+    return Math.pow(number,3);
 }
 
 function printCubeNumber(number){
     // write this with a console.log() statement!
+    console.log(cubeNumber(number));
 }
 
-
+printCubeNumber(12)
