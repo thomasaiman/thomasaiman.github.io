@@ -70,7 +70,7 @@ function textNasaPhoto() {
         type: 'POST',   
         success: function(data){console.log(data)},
         beforeSend: function (xhr) { // this runs before the request executes and does what "Basic Auth" in Postman did
-            xhr.setRequestHeader ("Authorization", "Basic " + btoa(username + ":" + password));
+            xhr.setRequestHeader ("Authorization", "Basic " + btoa(twilio.accountSid + ":" + twilio.apiKey));
         }
 
     })
