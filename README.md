@@ -1,1 +1,2 @@
-# thomasaiman.github.io
+# vandyhacks.github.io
+Site for our workshops
